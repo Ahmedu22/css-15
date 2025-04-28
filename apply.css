@@ -1,0 +1,119 @@
+li{
+        list-style: none;
+}
+nav{
+        background-color: gold;
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+    
+        }
+        nav li a{
+                text-decoration: none;
+        }
+        nav li a:hover {
+                background-color: #0a0a23;
+                color: aliceblue;
+                border-radius: 3px;
+        }
+
+
+.apply-section{
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 30px;
+        background: #6e6a6a;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0green, 0blue, 0.7);
+
+
+}
+.apply-section h1{
+        text-align: center;
+        color: gold;
+        margin-bottom: 30px;
+}
+.apply-form .form-group{
+margin-bottom: 20px;
+
+}
+.apply-form label{
+        display: block;
+        margin-bottom: 8px;
+        color: #ccc;
+}
+.apply-form input,
+.apply-form select,
+.apply-form textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+}
+
+
+.submit-btn{ 
+        background-color: #002b5c;
+        color: #fff;
+        padding: 12px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+}
+.submit-btn:hover{
+        background-color: #6e6a6a;
+}
+
+
+
+
+
+
+        .footer{
+                background-color: #0a0a23;
+                color: white;
+                padding: 3rem 1rem;
+                margin: 3rem;
+                font-size: 0.95rem;
+        }
+        .footer-container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 2rem;
+                max-width: 1200px;
+                margin: auto;
+        }
+        .footer-section{
+                flex:1 1 220px;
+        }
+        .footer-section h3{
+                color: aliceblue;
+                margin-bottom:1rem ;
+        
+        }
+        .footer-section ul{
+                list-style: none;
+                padding: 0;
+        
+        }
+        .footer-section ul li{
+                margin-bottom: 0.5rem;
+        }
+        
+        .footer-section ul li a{
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.7s;
+        }
+        
+        .footer-section ul li a:hover{
+             color: brown;
+             text-decoration: underline;
+        }
+        .footer-bottom{
+                text-align: center;
+                padding-top: 1rem;
+        
+        }
